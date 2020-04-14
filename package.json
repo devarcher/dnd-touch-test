@@ -5,11 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
   },
   "dependencies": {
-    "next": "9.3.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "next": "^9.3.4",
+    "prettier": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dnd": "^10.0.2",
+    "react-dnd-touch-backend": "^10.0.2",
+    "react-dom": "^16.13.1"
   }
 }
