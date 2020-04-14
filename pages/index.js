@@ -1,16 +1,12 @@
-import ListArea from "../components/ListArea";
-import MapArea from "../components/MapArea";
-import Square from "../components/Square";
+	import Example from '../src/components/example'
 
-const containerStyles = {
-  display: "flex",
-};
 
-const DnDPlayground = () => (
-  <div style={containerStyles}>
-    <ListArea />
-    <MapArea />
-  </div>
-);
+  const App = () => {
+		return (
+			<div className="App">
+					<Example />
+			</div>
+		)
+	}
 
-export default DnDPlayground;
+export default App

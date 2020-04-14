@@ -9,10 +9,13 @@
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
   },
   "dependencies": {
+    "immutability-helper": "^3.0.2",
     "next": "^9.3.4",
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dnd": "^10.0.2",
+    "react-dnd-html5-backend": "^10.0.2",
+    "react-dnd-multi-backend": "^5.0.0",
     "react-dnd-touch-backend": "^10.0.2",
     "react-dom": "^16.13.1"
   }
